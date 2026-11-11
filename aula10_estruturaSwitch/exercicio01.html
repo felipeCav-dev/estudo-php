@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de PHP</title>
+</head>
+<body>
+    <form method="get" action="exercicio01.php">
+        Numero: <input type="number" placeholder="Digite um número" name="num" required>
+        <fieldset><legend>Operação</legend>
+            <input type="radio" name="op" value="1" checked required> 
+            <label for="1">Dobro</label>
+            <input type="radio" name="op" value="2" required> 
+            <label for="2">Cubo</label>
+            <input type="radio" name="op" value="3" required> 
+            <label for="3">Raiz</label>
+        </fieldset>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>
